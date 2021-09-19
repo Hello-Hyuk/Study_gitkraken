@@ -1,7 +1,12 @@
 #include <iostream>
 using namespace std;
 
+void foo(){
+    cout << "hello form JAY branch";
+}
 int main(){
     cout << "hello main";
-    cout << "hello form JAY branch";
+    foo();
+
+    return 0;
 }
