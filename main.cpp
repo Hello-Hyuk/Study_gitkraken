@@ -4,8 +4,12 @@ using namespace std;
 void user2(){
     cout << "1212121 User2" << endl;
 }
+void user1(){
+    cout << "12171896 User1" << endl;
+}
 int main(){
-    cout << "hello main";
     user2();
+    user1();
+
     return 0;
 }
