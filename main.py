@@ -1,4 +1,4 @@
-from jay import JAY
+from cv import JAY
 
 jay = JAY()
 print("show cv member info")
