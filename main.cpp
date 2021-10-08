@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "pcap.h"
 
+<<<<<<< HEAD
 int index = 0;
 void print_raw_packet(const unsigned char* pkt_data, bpf_u_int32 caplen);
 void print_ether_header(const unsigned char* pkt_data);
@@ -165,6 +166,10 @@ unsigned short in_checksum(unsigned short* ptr, int nbytes) {
     answer = (SHORT)~sum;  // use ��short�� in MacOS
 
     return(answer);
+=======
+void user2(){
+    cout << "1212121 User2" << endl;
+>>>>>>> main
 }
 
 
@@ -191,6 +196,7 @@ void print_tcp_header(const unsigned char* pkt_data) {
     puts("\n");
 }
 
+<<<<<<< HEAD
 
 void print_data(const unsigned char* pkt_data, bpf_u_int32 caplen) {
     puts("[DATA]");
@@ -279,6 +285,8 @@ int main() {
     }
 
     
+=======
+>>>>>>> main
     return 0;
 }
 
