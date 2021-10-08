@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "pcap.h"
 
-<<<<<<< HEAD
 int index = 0;
 void print_raw_packet(const unsigned char* pkt_data, bpf_u_int32 caplen);
 void print_ether_header(const unsigned char* pkt_data);
@@ -9,12 +8,12 @@ void print_ip_header(const unsigned char* pkt_data);
 void print_tcp_header(const unsigned char* pkt_data);
 void print_data(const unsigned char* pkt_data, bpf_u_int32 caplen);
 
-//void build_ether_header(const unsigned char* mypkt_data, const unsigned char* pkt_data);
-//void build_ip_header(const unsigned char* mypkt_data, const unsigned char* pkt_data);
-//void build_tcp_header(const unsigned char* mypkt_data, const unsigned char* pkt_data);
-//void build_pseudo_header(const unsigned char* mypkt_data, const unsigned char* pkt_data);
-//unsigned short in_checksum(unsigned short* ptr, int nbytes);
-//void build_data(const unsigned char* mypkt_data, const unsigned char* pkt_data);
+void build_ether_header(const unsigned char* mypkt_data, const unsigned char* pkt_data);
+void build_ip_header(const unsigned char* mypkt_data, const unsigned char* pkt_data);
+void build_tcp_header(const unsigned char* mypkt_data, const unsigned char* pkt_data);
+void build_pseudo_header(const unsigned char* mypkt_data, const unsigned char* pkt_data);
+unsigned short in_checksum(unsigned short* ptr, int nbytes);
+void build_data(const unsigned char* mypkt_data, const unsigned char* pkt_data);
 
 
 struct pcap_pkhdr {  // defined in pcap.h
@@ -82,7 +81,7 @@ struct pseudo_header {
 };
 
 void print_raw_packet(const unsigned char* pkt_data, bpf_u_int32 caplen) {
-    puts("-------------RAW PACKET---------------");
+    printf("-----------RAW PACKET-----------\n");
     for (int i = 0; i < caplen; i++) {
         printf("%02x", pkt_data[i]);
         if (i % 2 == 1) printf(" ");
@@ -166,10 +165,6 @@ unsigned short in_checksum(unsigned short* ptr, int nbytes) {
     answer = (SHORT)~sum;  // use ��short�� in MacOS
 
     return(answer);
-=======
-void user2(){
-    cout << "1212121 User2" << endl;
->>>>>>> main
 }
 
 
