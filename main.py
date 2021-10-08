@@ -1,6 +1,9 @@
-from cv import JAY
+import cv
 
-jay = JAY()
+jay = cv.JAY()
+user = cv.USER1()
 print("show cv member info")
 jay.printINFO()
+user.printINFO()
+
 
