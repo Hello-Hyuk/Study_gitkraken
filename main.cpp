@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void func1(){
-    cout << "hello from func1" << endl;
+void func2(){
+    cout << "hello from func2" << endl;
 }
 
 int main(){
     cout << "hello from main" << endl;
-    func1();
+    func2();
     return 0;
 }
