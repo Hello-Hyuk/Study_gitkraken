@@ -1,7 +1,7 @@
-class SQUASH:
+class JAY:
     def __init__(self) -> None:
-        self.num = 12121233
-        self.name = "squash"
+        self.num = 12171863
+        self.name = "jay"
     def printINFO(self):
         print(self.num,self.name)
         

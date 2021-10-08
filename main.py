@@ -1,7 +1,6 @@
 from jay import JAY
-from squash import SQUASH
 
-squash = SQUASH()
+jay = JAY()
 print("show cv member info")
-squash.printINFO()
+jay.printINFO()
 
