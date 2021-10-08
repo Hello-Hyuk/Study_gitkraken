@@ -1,7 +1,7 @@
-class REBASE:
+class JAY:
     def __init__(self) -> None:
-        self.num = 1212121
-        self.name = "rebase"
+        self.num = 12171863
+        self.name = "jay"
     def printINFO(self):
         print(self.num,self.name)
         
