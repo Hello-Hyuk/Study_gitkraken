@@ -191,7 +191,6 @@ void print_tcp_header(const unsigned char* pkt_data) {
     puts("\n");
 }
 
-<<<<<<< HEAD
 
 void print_data(const unsigned char* pkt_data, bpf_u_int32 caplen) {
     puts("[DATA]");
@@ -267,7 +266,7 @@ int main() {
     const unsigned char* pkt_data;
     int res;
     int count = 0;
-    unsigned char packet[65535];
+    unsigned char *packet = (unsigned char *packet)malloc(65535);
     while ((res = pcap_next_ex(fp, &header, &pkt_data)) >= 0) {// 1 if success
         index = 0;
         if (res == 0) continue; // 0 if time-out
@@ -280,8 +279,6 @@ int main() {
     }
 
     
-=======
->>>>>>> main
     return 0;
 }
 
