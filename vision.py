@@ -4,13 +4,13 @@ class VISION:
     def printINFO(self):
         print(self.init)
 
-
-
-
-
-
-
-
+class minhuyk2:
+    def __init__(self) -> None:
+        self.init = "minhyuk"
+        self.num = 12181795
+    def printINFO(self):
+        print(self.init)
+        print(self.num)    
 
 class DAHYE:
     def __init__(self) -> None:
@@ -20,5 +20,3 @@ class DAHYE:
     def printINFO(self):
         print(self.name, self.team, self.id)
 
-            
-        
