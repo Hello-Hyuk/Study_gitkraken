@@ -5,5 +5,20 @@ class VISION:
         print(self.init)
 
 
+
+
+
+
+
+
+
+class DAHYE:
+    def __init__(self) -> None:
+        self.name= "Dahye"
+        self.team="team 2"
+        self.id=12181774
+    def printINFO(self):
+        print(self.name, self.team, self.id)
+
             
         
