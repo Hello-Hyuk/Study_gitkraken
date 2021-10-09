@@ -10,6 +10,8 @@ class USER1:
         self.name = "user1"
     def printINFO(self):
         print(self.num,self.name)
-          
+
+
+print("Dahye")
             
         
