@@ -1,9 +1,16 @@
 class VISION:
     def __init__(self) -> None:
+        self.init = "VIP COMPUTER VISION MEMBER LIST"
+    def printINFO(self):
+        print(self.init)
+
+class BANG:
+    def __init__(self) -> None:
         self.name = "bang"
         self.id = 12180339
     def printINFO(self):
-        print(self.init)
+        print(self.name,self.id)  
+
 class JAY:
     def __init__(self) -> None:
         self.name = "JAY"
