@@ -1,7 +1,5 @@
-from jay import JAY
-from squash import SQUASH
+from vision import VISION
 
-squash = SQUASH()
-print("show cv member info")
-squash.printINFO()
+vision = VISION()
+vision.printINFO()
 
