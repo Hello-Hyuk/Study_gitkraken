@@ -20,3 +20,10 @@ class DAHYE:
     def printINFO(self):
         print(self.name, self.team, self.id)
 
+
+
+class MINBUM:
+    def __init__(self) -> None:
+        self.init = "minbum 12151627"
+    def printINFO(self):
+        print(self.init)
