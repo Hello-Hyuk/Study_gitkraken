@@ -1,8 +1,12 @@
 import vision as vs
 
 vision = vs.VISION()
-jay = vs.JAY()
 vision.printINFO()
+
+seoyoung = vs.Seoyoung()
+seoyoung.printINFO()
+
+jay = vs.JAY()
 jay.printINFO()
 
 kayeon = vs.KAYEON()
@@ -13,4 +17,5 @@ minbum.printINFO()
 
 dahye=vs.DAHYE()
 dahye.printINFO()
+
 

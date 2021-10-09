@@ -4,6 +4,14 @@ class VISION:
     def printINFO(self):
         print(self.init)
 
+class Seoyoung:
+    def __init__(self) -> None:
+        self.name = "seoyoung"
+        self.team = "team 1"
+        self.num = 12191792
+    def printINFO(self):
+        print(self.name, self.team, self.num)
+
 class BANG:
     def __init__(self) -> None:
         self.name = "bang"
@@ -48,4 +56,3 @@ class MINBUM:
         self.init = "minbum 12151627"
     def printINFO(self):
         print(self.init)
-
