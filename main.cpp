@@ -2,6 +2,12 @@
 #include <stdio.h>
 using namespace std;
 
+void func1(){
+    cout << "func1" << endl;
+}
+
 int main(){
-    cout << "hello from main" << endl;
+    cout << "hello" << endl;
+    func1();
+    return 0;
 }
