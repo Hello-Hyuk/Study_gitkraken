@@ -1,6 +1,7 @@
 class VISION:
     def __init__(self) -> None:
-        self.init = "Team vision infomation"
+        self.name = "bang"
+        self.id = 12180339
     def printINFO(self):
         print(self.init)
 
