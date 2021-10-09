@@ -1,11 +1,11 @@
 import cv
 import hall
 jay = cv.JAY()
-user = cv.USER1()
+user2 = cv.USER2()
 hal = hall.HAL
 print("show cv member info")
 jay.printINFO()
-user.printINFO()
+user2.printINFO()
 hal.printINFO()
 
 
