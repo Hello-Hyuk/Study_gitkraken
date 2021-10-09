@@ -11,9 +11,13 @@ void func2(){
 }
 
 int main(){
-    cout << "hello" << endl;
-    func1();
-    cout << "hello from main" << endl;
+    cout << "hello from sy" << endl;
+    printf("maybe this one occur conflict\n");
+    for(;;){
+        func2();
+        func1();
+        break;
+    }
     func2();
     return 0;
 }
