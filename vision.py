@@ -13,7 +13,7 @@ class VISION:
 
 
 class DAHYE:
-    def __init(self) -> None:
+    def __init__(self) -> None:
         self.name= "Dahye"
         self.team="team 2"
         self.id=12181774
