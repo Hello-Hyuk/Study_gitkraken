@@ -10,7 +10,7 @@ void func1(){
 }
 
 int main(){
-    cout << "hello from main" << endl;
+    cout << "hello from sy" << endl;
     printf("maybe this one occur conflict\n");
     for(;;){
         func2();
