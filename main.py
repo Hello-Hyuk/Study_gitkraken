@@ -1,5 +1,7 @@
-from vision import VISION
+import vision as vs
 
-vision = VISION()
+vision = vs.VISION()
+test = vs.choi()
 vision.printINFO()
+test.printINFO()
 
