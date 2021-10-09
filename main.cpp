@@ -14,6 +14,7 @@ int main(){
     cout << "hello" << endl;
     func1();
     cout << "hello from main" << endl;
+    cout << "hello vision" << endl;
     func2();
     return 0;
 }
