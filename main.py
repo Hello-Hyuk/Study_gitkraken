@@ -8,3 +8,5 @@ vision.printINFO()
 dahye=vs.DAHYE()
 dahye.printINFO()
 
+minhyuk=vs.minhyuk2()
+minhyuk=printINFO()
