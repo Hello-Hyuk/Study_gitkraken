@@ -3,7 +3,3 @@ class VISION:
         self.init = "Team vision infomation"
     def printINFO(self):
         print(self.init)
-
-
-            
-        
