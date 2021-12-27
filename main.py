@@ -3,6 +3,12 @@ import vision as vs
 vision = vs.VISION()
 vision.printINFO()
 
+seoyoung = vs.Seoyoung()
+seoyoung.printINFO()
+
+jay = vs.JAY()
+jay.printINFO()
+
 kayeon = vs.KAYEON()
 kayeon.printINFO()
 

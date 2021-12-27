@@ -1,9 +1,31 @@
 class VISION:
     def __init__(self) -> None:
+        self.init = "VIP COMPUTER VISION MEMBER LIST"
+    def printINFO(self):
+        print(self.init)
+
+class Seoyoung:
+    def __init__(self) -> None:
+        self.name = "seoyoung"
+        self.team = "team 1"
+        self.num = 12191792
+    def printINFO(self):
+        print(self.name, self.team, self.num)
+
+class BANG:
+    def __init__(self) -> None:
         self.name = "bang"
         self.id = 12180339
     def printINFO(self):
-        print(self.init)
+        print(self.name,self.id)  
+
+class JAY:
+    def __init__(self) -> None:
+        self.name = "JAY"
+        self.team = "team 1"
+        self.num = 12171863
+    def printINFO(self):
+        print(self.name,self.team,self.num)
 
 class minhuyk2:
     def __init__(self) -> None:
@@ -34,4 +56,3 @@ class MINBUM:
         self.init = "minbum 12151627"
     def printINFO(self):
         print(self.init)
-
